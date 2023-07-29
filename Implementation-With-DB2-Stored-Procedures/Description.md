@@ -16,9 +16,9 @@ Section C: SQL/PL Stored Procedures:\
 6. ACCT_WTH (Number, Amt, sqlcode, err_msg)
 7. ACCT_TRX (Src_Acct, Dest_Acct, Amt, sqlcode, err_msg)
 8. ADD_INTEREST (Savings_Rate, Checking_Rate, sqlcode, err_msg)\
-Section D: User Interfaces \
+Section D: User Interfaces 
 1. Same command line interface described in P1. STP is called instead of using JDBC queries from BankingSystem.
-Section E: Additional Notes:\
+Section E: Additional Notes:
 1. Stored procedures 1-7 logic will be similar to what is implemented in P1.
 2. Implementation of ACCT_TRX() by calling ACCT_WTH() and then ACCT_DEP()l.
 3. ADD_INTEREST() is a new procedure for all “active” accounts only.
