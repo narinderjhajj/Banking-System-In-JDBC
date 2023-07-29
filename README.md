@@ -1,6 +1,8 @@
 # Banking-System-In-JDBC
 Description:
+
 This application acts as a simple banking system implemented using DB2 in Docker, Java, & JDBC and it is be able to do basic banking functions according to the specifications given below.
+
 Project Specification:
 Section A: Schema Definition
 P1.Customer (ID, Name, Gender, Age, Pin)
