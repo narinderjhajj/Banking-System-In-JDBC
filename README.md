@@ -4,9 +4,9 @@ Description:
 This application acts as a simple banking system implemented using DB2 in Docker, Java, & JDBC and it is be able to do basic banking functions according to the specifications given below.
 
 Project Specification:
---Section A: Schema Definition
--P1.Customer (ID, Name, Gender, Age, Pin)
--P1.Account (Number, ID, Balance, Type, Status)
+-- Section A: Schema Definition
+a) P1.Customer (ID, Name, Gender, Age, Pin)
+b) P1.Account (Number, ID, Balance, Type, Status)
 -- All the attributes cannot be NULL.
 -- Underlined attributes is denoted as the primary key of that relation.
 -- Italicized attributes is system generated.
@@ -20,11 +20,12 @@ Project Specification:
 - Balance: integer (>= 0)
 - Type: char (C for Checking, S for Saving)
 - Status: char (A for Active, I for Inactive)
-Section B: Data Administration & Manipulation
-Screen # 1 (Title – Welcome to the Self Services Banking System! – Main Menu)
+-- Section B: Data Administration & Manipulation
+-- Screen # 1 (Title – Welcome to the Self Services Banking System! – Main Menu)
 1. New Customer
 2. Customer Login
 3. Exit
+
 For #1, prompt for Name, Gender, Age, and Pin. System will return a customer ID if successful.
 For #2, prompt for customer ID and pin to authenticate the customer. If user enters 0 for both customer
 ID & pin, then you will go straight to Screen #4.
