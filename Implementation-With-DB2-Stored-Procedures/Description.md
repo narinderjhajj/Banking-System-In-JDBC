@@ -15,7 +15,9 @@ Section C: SQL/PL Stored Procedures:\
 5. ACCT_DEP (Number, Amt, sqlcode, err_msg)
 6. ACCT_WTH (Number, Amt, sqlcode, err_msg)
 7. ACCT_TRX (Src_Acct, Dest_Acct, Amt, sqlcode, err_msg)
-8. ADD_INTEREST (Savings_Rate, Checking_Rate, sqlcode, err_msg)\
+8. ADD_INTEREST (Savings_Rate, Checking_Rate, sqlcode, err_msg)
+
+   
 Section D: User Interfaces 
 1. Same command line interface described in P1. STP is called instead of using JDBC queries from BankingSystem.
 Section E: Additional Notes:
