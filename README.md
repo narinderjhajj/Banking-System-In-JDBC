@@ -3,11 +3,11 @@ Description:
 
 This application acts as a simple banking system implemented using DB2 in Docker, Java, & JDBC and it is be able to do basic banking functions according to the specifications given below.
 
-Project Specification:
--- Section A: Schema Definition
-a) P1.Customer (ID, Name, Gender, Age, Pin)
-b) P1.Account (Number, ID, Balance, Type, Status)
--- All the attributes cannot be NULL.
+Project Specification:\
+Section A: Schema Definition\
+a) P1.Customer (ID, Name, Gender, Age, Pin)\
+b) P1.Account (Number, ID, Balance, Type, Status)\
+-- All the attributes cannot be NULL.\
 -- Underlined attributes is denoted as the primary key of that relation.
 -- Italicized attributes is system generated.
 -- Attribute types and ranges:
